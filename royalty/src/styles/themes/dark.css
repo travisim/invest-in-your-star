@@ -1,0 +1,15 @@
+/* src/styles/themes/dark.css */
+body.dark-theme {
+  --neutral-50: #111827;
+  --neutral-100: #1F2937;
+  --neutral-500: #9CA3AF;
+  --neutral-900: #F9FAFB;
+
+  background-color: var(--neutral-50);
+  color: var(--neutral-900);
+}
+
+.dark-theme .card {
+  background-color: var(--neutral-100);
+  border-color: var(--neutral-500);
+}

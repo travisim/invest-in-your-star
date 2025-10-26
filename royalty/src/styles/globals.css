@@ -1,0 +1,38 @@
+/* src/styles/globals.css */
+:root {
+  /* Primary Colors */
+  --primary-stellar: #7B61FF;
+  --primary-content: #1A1A1A;
+  --primary-success: #10B981;
+  --primary-warning: #F59E0B;
+  --primary-error: #EF4444;
+
+  /* Neutral Palette */
+  --neutral-50: #F9FAFB;
+  --neutral-100: #F3F4F6;
+  --neutral-500: #6B7280;
+  --neutral-900: #111827;
+
+  /* Semantic Colors */
+  --revenue-green: #059669;
+  --stake-blue: #3B82F6;
+  --license-orange: #EA580C;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--neutral-900);
+  background-color: var(--neutral-50);
+  margin: 0;
+  padding: 0;
+}
