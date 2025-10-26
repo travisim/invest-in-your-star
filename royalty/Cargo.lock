@@ -205,6 +205,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "bonding_curve_sale"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -298,6 +305,21 @@ name = "const-oid"
 version = "0.9.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2459377285ad874054d797f3ccebf984978aa39129f6eafde5cdc8315b612f8"
+
+[[package]]
+name = "content_registry"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
+
+[[package]]
+name = "content_token"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+ "soroban-token-sdk",
+]
 
 [[package]]
 name = "core-foundation-sys"
@@ -846,6 +868,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f9fbbcab51052fe104eb5e5d351cf728d30a5be1fe14d9be8a3b097481fb97de"
 
 [[package]]
+name = "license_manager"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
+
+[[package]]
+name = "license_nft"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
+
+[[package]]
 name = "log"
 version = "0.4.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -927,6 +963,13 @@ name = "once_cell"
 version = "1.21.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
+
+[[package]]
+name = "oracle_attestation"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
 
 [[package]]
 name = "p256"
@@ -1066,6 +1109,13 @@ name = "regex-syntax"
 version = "0.8.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a2d987857b319362043e95f5353c0535c1f58eec5336fdfcf626430af7def58"
+
+[[package]]
+name = "revenue_distributor"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
 
 [[package]]
 name = "rfc6979"
@@ -1601,6 +1651,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "soroban-token-sdk"
+version = "22.0.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1b5d44abd4abb253c0714d28b3b5a9db6aaf9afa1684c3a23778e07a201c3adb"
+dependencies = [
+ "soroban-sdk 22.0.8",
+]
+
+[[package]]
 name = "soroban-wasmi"
 version = "0.31.1-soroban.20.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1627,6 +1686,13 @@ checksum = "d91ed6c858b01f942cd56b37a94b3e0a1798290327d1236e4d9cf4eaca44d29d"
 dependencies = [
  "base64ct",
  "der",
+]
+
+[[package]]
+name = "staking_escrow"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk 22.0.8",
 ]
 
 [[package]]
