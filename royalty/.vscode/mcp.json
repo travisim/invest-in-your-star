@@ -1,0 +1,35 @@
+{
+  "mcp": {
+    "servers": {
+    
+
+
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+ 
+
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    
+},
+  "mcp-deepwiki": {
+      "command": "npx",
+      "args": ["-y", "mcp-deepwiki@latest"]
+    },
+ 
+
+    },
+    "inputs": [
+      {
+       
+      }
+    ]
+  }
+}
+
+
